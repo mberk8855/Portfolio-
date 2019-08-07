@@ -1,0 +1,306 @@
+html{
+    position: relative;
+    min-height: 100%;
+  }
+  
+  #navbar-font {
+    font-family: 'Advent Pro', sans-serif;
+  
+  }
+  
+  #navbar-font:hover{
+  
+    color: #BA01FF;
+    -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon6 1.5s ease-in-out infinite alternate;
+    animation: neon6 1.5s ease-in-out infinite alternate;
+  
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  
+  body{
+    width: 1024;
+    /* background-color: grey; */
+  }
+  
+  #rowrow {
+    background-color:black;
+  }
+  #pic {
+      /* background: url(../images/1.png);
+      background-repeat: no-repeat;
+      background-size:  100%; */
+      margin-top:10px;
+      /* width:283px; */
+      width:70%;
+      background-color:black;
+  
+  
+    }
+  
+  
+  #index-font {
+    font-family: 'Advent Pro', sans-serif;
+  }
+  
+  #navbar-font {
+    font-family: 'Advent Pro', sans-serif;
+  }
+  
+  #index {
+  font-size: 64px;
+  line-height: 77px;
+  margin-top: 19px;
+  /* text-align: center;
+  margin: 20px 0 20px 0; */
+  /* text-decoration: none; */
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+    /* font-family: Monoton; */
+    /* -webkit-animation: neon1 1.5s ease-in-out infinite alternate; */
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+  
+  #index:hover {
+    color: #FF1177;
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    }
+  
+  
+    #art {
+      font-family: 'Advent Pro', sans-serif;
+      font-size: 64px;
+      line-height: 77px;
+      margin-top: 19px;
+      text-decoration: none;
+      -webkit-transition: all 0s;
+      -moz-transition: all .5s;
+      transition: all 7s;
+    }
+  
+    #art:hover{
+      color: #228DFF;
+      /* -neon3 1.5s ease-in-out infinite alternate; */
+      /* -moz-animation: neon3 4.5s ease-in-out infinite; */
+      /* animation: neon3 1.5s ease-in-out infinite alternate; */
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  
+    }
+    #gallery {
+      font-family: 'Advent Pro', sans-serif;
+      font-size: 64px;
+      line-height: 77px;
+      margin-top: 19px;
+      text-align: center;
+  margin: 20px 0 20px 0;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+    /* font-family: Monoton; */
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+  }
+  
+  #gallery:hover {
+    color: rgb(255, 50, 139);
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(255, 50, 139), 0 0 70px #FF1177, 0 0 80px rgb(255, 50, 139), 0 0 100px rgb(255, 50, 139), 0 0 150px #FF1177;
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px rgb(255, 50, 139), 0 0 50px rgb(255, 53, 141), 0 0 75px rgb(255, 50, 139);
+    }
+  
+  
+  
+  #index1 {
+  font-size: 20px;
+  line-height: 55px;
+  margin-top:-17px;
+  color: rgb(255, 50, 139);
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgb(255, 50, 139), 0 0 70px #FF1177, 0 0 80px rgb(255, 50, 139), 0 0 100px rgb(255, 50, 139), 0 0 150px #FF1177;
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px rgb(255, 50, 139), 0 0 50px rgb(255, 53, 141), 0 0 75px rgb(255, 50, 139);
+  
+  }
+  
+  .close
+  {
+    margin-right: 70px;
+  }
+  
+  #login-btn {margin-top:25px;
+  
+  }
+  /* #ham {
+    background-color: aliceblue;
+  } */
+  /*
+  #burger{
+    background-color:white;
+  } */
+  #register-btn {
+    margin-top:-18px;
+  
+  }
+  
+  #filter-btn {
+    margin-bottom: 15px;
+  }
+  
+  .nav-link {
+    color: white;
+  }
+  
+  #burger {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+    }
+  
+  #upload-btn {
+    font-family: 'Advent Pro', sans-serif;
+  }
+  
+  #urArt {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 64px;
+  line-height: 77px;
+  margin-top: 19px;
+  text-align: center;
+  
+  
+  }
+  
+  #urArt:hover {
+    -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+    animation: neon3 1.5s ease-in-out infinite alternate;
+  
+    color: #FFDD1B;
+  
+  
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+  
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+  }
+  
+  
+  .example_c {
+    margin-top: -18px;
+    margin-bottom: 15px;
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 20px;
+    border: 4px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    }
+    .example_c:hover {
+      color: #ffffff !important;
+      background: #fffc62;
+      border-color: #f5c833 !important;
+      transition: all 0.4s ease 0s;
+      }
+  
+      .card-title {
+        font-family: 'Advent Pro', sans-serif;
+      }
+      .card-left {
+        padding:0;
+        border-width: 1px;
+        border-color:#FF69B4;
+        border-width: 3px;
+      }
+      .card-middle {
+        padding:0;
+        border-width: 1px;
+        border-color:#FF69B4;
+        border-width: 3px;
+      }
+      .card-right {
+        padding:0;      
+        border-width: 1px;
+        border-color:#FF69B4;
+        border-width: 3px;
+      }
+  
+      #four {
+  
+        border-width: 1px;
+        border-color:#FF69B4;
+        border-width: 3px;
+      }
+      #five {
+  
+        border-width: 1px;
+        border-color:#FF69B4;
+        border-width: 3px;
+      }
+      #six {
+  
+        border-width: 1px;
+        border-color:#FF69B4;
+        border-width: 3px;
+      }
+  
+      #seven {
+  
+        border-width: 1px;
+        border-color:#FF69B4;
+        border-width: 3px;
+      }
+      #eight {
+  
+        border-width: 1px;
+        border-color:#FF69B4;
+        border-width: 3px;
+      }
+      #nine {
+  
+        border-width: 1px;
+        border-color:#FF69B4;
+        border-width: 3px;
+      }
+  
+      #emptycart {
+        text-align: center;
+      margin-top: 10%;
+      margin-bottom: 1rem;
+  }
+     #keep-browsing {
+      margin-left: 40%;
+      margin-top: 25px;
+     }
+  
+  /* .todo-list {
+    margin: 0 auto;
+    margin-top: 75px;
+  }
+  
+  input.new-item:focus {
+    outline: none;
+  }
+  
+  .list-group-item > button.delete,
+  .list-group-item > button.complete {
+    float: right;
+    height: 25px;
+    margin-left: 5px;
+  }
+  
+  .edit {
+    width: 100%;
+  } */
+  
